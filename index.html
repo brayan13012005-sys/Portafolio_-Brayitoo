@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brayan Mendoza Hernández | Audiovisual y Videojuegos</title>
+  <meta name="description" content="Portafolio de Brian Mendoza Hernández, Ingeniería en Comunicación Multimedia: producción audiovisual, videojuegos y experiencias interactivas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="progress" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- NAVEGACIÓN -->
+  <header class="nav">
+    <a class="logo" href="#inicio">BM</a>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#hago">Lo que hago</a>
+      <a href="#audiovisual">Audiovisual</a>
+      <a href="#programacion">Programación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- INICIO -->
+    <section class="hero" id="inicio">
+      <div class="hero__content">
+        <p class="hero__intro">Hola, soy</p>
+        <h1 class="hero__title">Brayan Mendoza Hernández</h1>
+        <p class="hero__role">
+          Hago <span class="typed" id="typed">cortometrajes</span><span class="caret" aria-hidden="true"></span>
+        </p>
+        <p class="hero__text">
+          Ingeniero en Comunicación Multimedia. Desarrollo historias para ver y mundos para explorar.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#audiovisual">Ver mis proyectos</a>
+          <a class="btn btn--ghost" href="#contacto">Contáctame</a>
+        </div>
+      </div>
+
+      <!-- FOTO DE PORTADA -->
+      <div class="hero__photo">
+        <div class="photo" id="photo">
+          <div class="photo__glow" aria-hidden="true"></div>
+          <div class="photo__frame">
+            <div class="photo__inner">
+              <span class="photo__placeholder" aria-hidden="true">BM</span>
+              <!-- Pon tu foto en la misma carpeta con el nombre foto.jpg -->
+              <img src="assets/Brayitoo.jpg" alt="Brian Mendoza Hernández" onerror="this.style.display='none'">
+            </div>
+          </div>
+          <span class="chip chip--a">🎬 Video</span>
+          <span class="chip chip--b">🎮 Videojuegos</span>
+          <span class="chip chip--c">⌘ Código</span>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#sobre-mi">Desliza</a>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="section" id="sobre-mi">
+      <h2 class="section__title reveal">Sobre mí</h2>
+      <div class="about">
+        <div class="about__text reveal">
+          <p>
+            Estudiante de Ingeniería en Comunicación Multimedia apasionado por la producción audiovisual. Dirijo, grabo y edito cortometrajes y videoclips, 
+			  acompañando cada proyecto desde su conceptualización hasta el corte final.
+          </p>
+          <p>
+            Complemento mi perfil creativo con el desarrollo de videojuegos y el diseño de recorridos virtuales interactivos. 
+			 Estoy abierto a colaborar en proyectos que integren narrativa visual y tecnología.
+          </p>
+        </div>
+        <ul class="stats">
+          <li class="stat reveal">
+            <strong class="stat__num" data-count="48">0</strong>
+            <span>horas para hacer un cortometraje en un concurso</span>
+          </li>
+          <li class="stat reveal">
+            <strong class="stat__num" data-count="1">0</strong>
+            <span>videojuego programado en Unity</span>
+          </li>
+          <li class="stat reveal">
+            <strong class="stat__num" data-count="1">0</strong>
+            <span>recorrido virtual de una ofrenda de Día de Muertos</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LO QUE HAGO -->
+    <section class="section" id="hago">
+      <h2 class="section__title reveal">Lo que hago</h2>
+      <div class="services">
+
+        <article class="service reveal tilt">
+          <span class="service__icon">🎬</span>
+          <h3>Producción audiovisual</h3>
+          <p>Cortometrajes y videoclips, de la grabación a la dirección y la edición.</p>
+          <ul class="chips"><li>DaVinci Resolve</li><li>Dirección</li><li>Grabación</li></ul>
+        </article>
+
+        <article class="service reveal tilt">
+          <span class="service__icon">🎮</span>
+          <h3>Videojuegos</h3>
+          <p>Programación y diseño de juegos con Unity, de la idea a un juego que se puede probar.</p>
+          <ul class="chips"><li>Unity</li><li>Visual Studio Code</li></ul>
+        </article>
+
+        <article class="service reveal tilt">
+          <span class="service__icon">🧊</span>
+          <h3>Modelado 3D</h3>
+          <p>Modelos y escenarios para juegos y recorridos virtuales.</p>
+          <ul class="chips"><li>Blender</li><li>Unity</li></ul>
+        </article>
+
+        <article class="service reveal tilt">
+          <span class="service__icon">🕶️</span>
+          <h3>Experiencias interactivas</h3>
+          <p>Recorridos virtuales que se exploran, como mi ofrenda de Día de Muertos.</p>
+          <ul class="chips"><li>Unity</li><li>Blender</li></ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- AUDIOVISUAL -->
+    <section class="section" id="audiovisual">
+      <h2 class="section__title reveal">Producción audiovisual</h2>
+      <p class="section__lead reveal">Cortometrajes y videoclips. Haz clic para reproducir.</p>
+
+      <div class="grid">
+
+        <!-- Para activar el video: pon el ID de YouTube en data-video (ej. data-video="dQw4w9WgXcQ") -->
+        <article class="card reveal tilt">
+          <button class="video" data-video="dcdRfCZX-OI" aria-label="Reproducir video"> 
+            <span class="video__bg video__bg--violet"></span>
+            <span class="video__play"></span>
+          </button>
+          <div class="card__body">
+            <span class="tag tag--cyan">Cortometraje</span>
+            <h3>The Marchand | Violeta &amp; Venancio | F1RSTUDIOS | 48hfp 2025&nbsp;</h3>
+            <p> Participación en el Concurso The 48 Hour Film Proyect 2025.&nbsp;</p>
+			  <p><b>Rol:</b> Asistente en Cámara.&nbsp;</p>
+          </div>
+        </article>
+
+        <article class="card reveal tilt">
+          <button class="video" data-video="zQO3tVrzRqs" aria-label="Reproducir video">
+            <span class="video__bg video__bg--pink"></span>
+            <span class="video__play"></span>
+          </button>
+          <div class="card__body">
+            <span class="tag tag--pink">Videoclip</span>
+            <h3>PRAY WITH ME&nbsp;| Creavisión</h3>
+            <p>Artista o proyecto, y qué hiciste tú en la producción.</p>
+          </div>
+        </article>
+
+        <article class="card reveal tilt">
+          <button class="video" data-video="BzPvXa1dFlE" aria-label="Reproducir video">
+            <span class="video__bg video__bg--cyan"></span>
+            <span class="video__play"></span>
+          </button>
+          <div class="card__body">
+            <span class="tag tag--cyan">Cortometraje · 48 horas</span>
+            <h3>EL SONIDO DEL SILENCIO&nbsp;| Creavisió&nbsp; &nbsp;</h3>
+            <p>Hecho en 48 horas, trabajando en equipo y bajo presión.</p>
+          </div>
+        </article>
+		  
+		 <!-- NUEVA TARJETA PARA TIKTOK -->
+        <article class="card reveal tilt">
+          <div style="width: 100%; height: 320px; overflow: hidden; border-radius: 12px 12px 0 0; background: #000;">
+            <iframe 
+              src="https://tiktok.com" 
+              style="width: 100%; height: 100%; border: none;" 
+              allowfullscreen 
+              scrolling="no" 
+              allow="encrypted-media;">
+            </iframe>
+          </div>
+          <div class="card__body">
+            <span class="tag tag--pink">Video publicitario</span>
+            <h3>1er Aniversario | StreetMotion Company</h3>
+            <p>Video recap de la experiencia del primer aniversario: grabación, dirección y edición.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROGRAMACIÓN -->
+    <section class="section" id="programacion">
+      <h2 class="section__title reveal">Programación y videojuegos</h2>
+      <p class="section__lead reveal">Juegos y experiencias que se pueden explorar.</p>
+
+      <div class="grid grid--two">
+
+        <article class="card reveal tilt">
+          <div class="card__media card__media--cyan">
+          <img src="assets/Videojuego.png" alt="Recorrido virtual Ofrenda de Día de Muertos" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          </div>
+          <div class="card__body">
+            <span class="tag tag--pink">Videojuego</span>
+            <h3>Speace Cow&nbsp;</h3>
+            <p>Video juego inspirado en PAC MAN, en donde eres una pequeña vaquita la cual tiene que escapar de los ovnis.&nbsp; &nbsp; &nbsp;</p>
+            <ul class="chips"><li>Unity</li><li>Blender&nbsp;</li>
+            </ul>
+            <a class="card__link" href="#">Jugar o ver proyecto</a>
+          </div>
+        </article>
+
+        <article class="card reveal tilt">
+          <div class="card__media card__media--cyan">
+          <img src="assets/Recorrido.png" alt="Recorrido virtual Ofrenda de Día de Muertos" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          </div>
+          <div class="card__body">
+            <span class="tag tag--cyan">Recorrido virtual</span>
+            <h3>Ofrenda de Día de Muertos Nikte</h3>
+            <p>Un recorrido virtual para explorar una ofrenda Prehispanica     &nbsp;</p>
+            <ul class="chips"><li>VisuaL Studio Code&nbsp;&nbsp;</li>
+            <li>Three/JS&nbsp;</li>
+            </ul>
+            <a class="card__link" href="https://brayan13012005-sys.github.io/OFRENDA_NIKTE/">Explorar recorrido</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact" id="contacto">
+      <div class="contact__box reveal">
+        <h2 class="section__title section__title--plain">¿Hacemos algo juntos?</h2>
+        <p class="contact__text">Si buscas a alguien que una video y programación, escríbeme.</p>
+        <a class="btn btn--primary" href="mailto:brayan13012005@gmail.com">¡Contactame justo ahora!</a>
+        <ul class="social">
+          <li><a href="https://www.instagram.com/brayitoo_xh?dlrf=MTg1aWVjbTNoYmt0YQ%3D%3D&utm_source=qr">Instagram</a></li>
+          <li><a href="https://youtube.com/@brayanmendozahernandez7751?si=rTuT_pLOjlYwqfcc">YouTube</a></li>
+          <li><a href="https://www.tiktok.com/@brayitoo.bxh?_r=1&_t=ZS-9AUvwAI3fVa">Tiktok</a></li>
+          <li><a href="https://www.facebook.com/share/1d3Wbsyu87/?mibextid=wwXIfr">Facebook</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Brian Mendoza Hernández. Hecho con creatividad y código.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
